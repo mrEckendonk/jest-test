@@ -13,5 +13,5 @@ test('string leght is 6', () => {
 });
 
 test('Expect that this test shows an error', () => {
-  expect(stringLength('mrEckendonk')).toBe(11);
+  expect(stringLength('mrEckendonk')).toThrow(Error);
 });
